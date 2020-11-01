@@ -8,12 +8,6 @@ import org.junit.Test;
 public class UserDaoTest {
 
     @Test
-    public void queryUserByUsername() {
-        UserDao userDao = new UserDaoImpl();
-        System.out.println(userDao.queryUserByUsername("admin"));
-    }
-
-    @Test
     public void queryUserByUsername2() {
         UserDao userDao = new UserDaoImpl();
         if(userDao.queryUserByUsername("adn")==null) {
