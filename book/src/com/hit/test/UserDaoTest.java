@@ -7,14 +7,6 @@ import org.junit.Test;
 
 public class UserDaoTest {
 
-    @Test
-    public void queryUserByUsername2() {
-        UserDao userDao = new UserDaoImpl();
-        if(userDao.queryUserByUsername("adn")==null) {
-            System.out.println("用户名不存在，可用");
-        }else{
-            System.out.println("用户名已存在");
-        }
 
     }
 
